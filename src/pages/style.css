@@ -9,6 +9,13 @@
     height:auto;
     }
 
+.sousTitre {
+    position: absolute;
+    width:100%;
+    top: 8%;
+    color: #FFFFFF;
+}
+
 /* ---------------------- TESTS ----------------- */
 
 #hexagon {

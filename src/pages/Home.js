@@ -7,8 +7,9 @@ import imgbg from '../img/grandPolygone.png';
 import titreblanc from '../img/kaino_logo_blanc_text.png';
 
 
-
 class Home extends React.Component {
+
+    
 
     componentDidMount() {
         document.title = "KAINO"
@@ -28,13 +29,17 @@ class Home extends React.Component {
                                 <img className="logo" alt="Logo Kaino" src={logoblanc}/>
                             </a>
                             
-                            <div className="h3test">
-                                <p>test</p>
+                            <div className="navigationBarApropos">
+                                <p>Qui sommes-nous ?</p>
+                            </div>
+                            <div className="navigationBarContact">
+                                <p>Contact</p>
                             </div>
                         </div>
 
                         <div className="bigTitre">
                             <img className="img_titre" alt="Titre Kaino" src={titreblanc}/>
+                            <h1>L'escape room sécurité informatique</h1>
                         </div>
 
                     </div>

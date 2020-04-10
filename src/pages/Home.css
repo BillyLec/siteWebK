@@ -17,7 +17,6 @@ body {
     position: absolute;
     width: 100%;
     height: auto;
-    left: 0px;
     top: 0px;
     background: #F7F2FF;
     }
@@ -30,13 +29,14 @@ body {
     top: 16px;
     }
 
-.h3test {
+.navigationBarApropos, .navigationBarContact {
+    font-size: 1em;
     position: absolute;
-    left: 47.12%;
-    right: 40.42%;
     top: 19.39%;
     bottom: 43.88%;
     }
+.navigationBarApropos {right: 20%;}
+.navigationBarContact {right: 14%;}
 
 .polygoneHeader {
     width: 100%;
@@ -53,5 +53,16 @@ body {
     width: 45%;
     height: auto;
     margin-top: 40pt;
-    margin-bottom: 30pt;
+    margin-bottom: 10pt;
+    }
+
+h1 {
+    color: white;
+    margin-top: 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 54px;
+    letter-spacing: 0.02em;
     }
