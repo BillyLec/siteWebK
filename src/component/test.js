@@ -1,5 +1,5 @@
 import React from "react";
-import './Home.css';
+import './test.css';
 import './style.css';
 
 import logoblanc from '../img/kaino_logo_blanc.png';
@@ -8,20 +8,20 @@ import titreblanc from '../img/kaino_logo_blanc_text.png';
 
 
 
-class Home extends React.Component {
+class Test extends React.Component {
 
     componentDidMount() {
         document.title = "KAINO"
       }
 
 
-      render() {
+    render() {
         return (
-            <div className="Home">
+            <div className="Test">
                 <header>
 
                     <div className="header">
-                        <img className="polygoneHeader" alt="Fond violet header" src={imgbg}/>
+                        <img className="polygone1" alt="Fond violet header" src={imgbg}/>
 
                         <div className="menu">
                             <a href="https://kaino.fr">
@@ -37,6 +37,8 @@ class Home extends React.Component {
                             <img className="img_titre" alt="Titre Kaino" src={titreblanc}/>
                         </div>
 
+                        
+
                     </div>
                 </header>
             </div>
@@ -44,4 +46,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home
+export default Test
