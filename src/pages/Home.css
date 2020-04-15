@@ -13,12 +13,29 @@ body {
     font-size: 100%;
     }
 
+h1 {
+    color: white;
+    margin-top: 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+    }
+
 .header{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto;
+    left: 0px;
+    right: 0px;
     top: 0px;
     background: #F7F2FF;
+    }
+.polygone1 {
+    width: 100%;
+    height: 100%;
     }
 
 .menu{
@@ -34,35 +51,37 @@ body {
     position: absolute;
     top: 19.39%;
     bottom: 43.88%;
+    color: white;
     }
 .navigationBarApropos {right: 20%;}
 .navigationBarContact {right: 14%;}
-
-.polygoneHeader {
-    width: 100%;
-    height: 100%;
-    }
 
 .bigTitre {
     position: absolute;
     width:100%;
     top: 8%;
     }
-
 .img_titre {
     width: 45%;
     height: auto;
     margin-top: 40pt;
-    margin-bottom: 10pt;
+    margin-bottom: 5pt;
+    }
+.boxSousTitre {
+    width: 45%;
+    margin: auto;
     }
 
-h1 {
-    color: white;
-    margin-top: 0;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 54px;
-    letter-spacing: 0.02em;
+.petitBadge1 {
+    position: absolute;
+    width: 100%;
+    top: 48%;
+    left: 0px;
     }
+.hex1, .hex2{
+    position: absolute;
+    width: 28%;
+    height: auto;
+    }
+.hex1{left: -30px;}
+.hex2{left: 60%; margin-top: 8%;}

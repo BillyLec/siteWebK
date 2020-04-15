@@ -5,6 +5,8 @@ import './style.css';
 import logoblanc from '../img/kaino_logo_blanc.png';
 import imgbg from '../img/grandPolygone.png';
 import titreblanc from '../img/kaino_logo_blanc_text.png';
+import hex1 from '../img/Polygon_2.png';
+import hex2 from '../img/Polygon_3.png';
 
 
 class Home extends React.Component {
@@ -20,15 +22,13 @@ class Home extends React.Component {
         return (
             <div className="Home">
                 <header>
-
                     <div className="header">
-                        <img className="polygoneHeader" alt="Fond violet header" src={imgbg}/>
+                        <img className="polygone1" alt="Fond violet header" src={imgbg}/>
 
                         <div className="menu">
                             <a href="https://kaino.fr">
                                 <img className="logo" alt="Logo Kaino" src={logoblanc}/>
                             </a>
-                            
                             <div className="navigationBarApropos">
                                 <p>Qui sommes-nous ?</p>
                             </div>
@@ -39,9 +39,17 @@ class Home extends React.Component {
 
                         <div className="bigTitre">
                             <img className="img_titre" alt="Titre Kaino" src={titreblanc}/>
-                            <h1>L'escape room sécurité informatique</h1>
+                            <div className="boxSousTitre">
+                                <h1>L'escape room sécurité informatique</h1>
+                                <h1>Jouez et protégez</h1>
+                            </div>
+                            
                         </div>
 
+                        <div className="petitBadge1">
+                            <img className="hex1" alt="Petit badge hexagone orange" src={hex1}/>
+                            <img className="hex2" alt="Petit badge hexagone orange" src={hex2}/>
+                        </div>
                     </div>
                 </header>
             </div>
@@ -50,3 +58,4 @@ class Home extends React.Component {
 }
 
 export default Home
+
