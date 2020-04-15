@@ -21,8 +21,7 @@ class Home extends React.Component {
       render() {
         return (
             <div className="Home">
-                <header>
-                    <div className="header">
+                    <div className="entete">
                         <img className="polygone1" alt="Fond violet header" src={imgbg}/>
 
                         <div className="menu">
@@ -51,7 +50,6 @@ class Home extends React.Component {
                             <img className="hex2" alt="Petit badge hexagone orange" src={hex2}/>
                         </div>
                     </div>
-                </header>
             </div>
         )
     }
