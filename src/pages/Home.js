@@ -17,6 +17,9 @@ import diamond3 from '../img/Polygon_5_vert.png';
 import diamond4 from '../img/Polygon_5_jaune.png';
 import kkk from '../img/Fond_kkk.png';
 import hex4 from '../img/Polygon_6.png';
+import logo_insa from '../img/logo_insa.png';
+import logo_ttt from '../img/logo_ttt.png';
+import logo_laas from '../img/logo_laas.png';
 
 
 class Home extends React.Component {
@@ -123,10 +126,22 @@ class Home extends React.Component {
                         <div className="boxcontact">
 
                         </div>
-
                     </div>
 
-                    
+                    <div className="partenaires">
+                        <p className="titreSection">Ils nous font confiance</p>
+                        <img className="cardlogo" alt="Logo de l'INSA" src={logo_insa}/>
+                        <img className="cardlogo" alt="Logo du Laas-CNRS" src={logo_laas}/>
+                        <img className="cardlogo" alt="Logo de Toulouse Tech Transfert" src={logo_ttt}/>
+                        
+                    </div>
+
+                    <div className="footer">
+                        <div>
+                            <p className="txtcopyright">Copyright © 2020 Kaïno – Security Bootcamp – escape room</p>
+                        </div>
+                    </div>
+   
             </div>
         )
     }

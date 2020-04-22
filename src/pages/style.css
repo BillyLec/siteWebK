@@ -19,9 +19,9 @@
     position: relative;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     }
-.smallCard{height: 450px;}
-.mediumCard{height: 500px;}
-.largeCard{height: 550px;}
+.smallCard{height: 450px; border-radius: 10px;}
+.mediumCard{height: 500px; border-radius: 10px;}
+.largeCard{height: 550px; border-radius: 10px;}
 
 
 
