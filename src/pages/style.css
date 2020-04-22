@@ -8,3 +8,36 @@
     width:8%;
     height:auto;
     }
+
+.card {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+.smallCard{height: 450px;}
+.mediumCard{height: 500px;}
+.largeCard{height: 550px;}
+
+
+
+
+
+.wrapper3colonnes {
+    display: grid;
+    grid-row: repeat(4, 1fr);
+    align-content: center;
+    width: 80%;
+    margin-left: 10%;
+    }
+.box3lignes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 20px;
+    }
+
+  

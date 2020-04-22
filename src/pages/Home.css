@@ -23,7 +23,9 @@ h1 {
     line-height: 54px;
     letter-spacing: 0.02em;
     }
-
+/*------------------------------
+---------- ENTETE --------------
+--------------------------------*/
 .entete {
     position: relative;
     width: 100%;
@@ -32,6 +34,7 @@ h1 {
     right: 0px;
     top: 0px;
     background: #F7F2FF;
+    margin-bottom: 10%;
     }
 .polygone1 {
     width: 100%;
@@ -45,7 +48,7 @@ h1 {
     top: 16px;
     }
 
-.navigationBarApropos, .navigationBarContact {
+.navigationBar {
     font-size: 1em;
     position: absolute;
     top: 19.39%;
@@ -61,7 +64,7 @@ h1 {
     top: 8%;
     }
 .img_titre {
-    width: 45%;
+    width: 35%;
     height: auto;
     margin-top: 40pt;
     margin-bottom: 5pt;
@@ -75,12 +78,141 @@ h1 {
     position: absolute;
     width: 100%;
     top: 48%;
-    left: 0px;
     }
-.hex1, .hex2{
+.hex{
     position: absolute;
-    width: 28%;
+    width: 25%;
     height: auto;
     }
-.hex1{left: -30px;}
-.hex2{left: 60%; margin-top: 8%;}
+.hex-1{left: -30px;}
+.hex-2{left: 60%; margin-top: 8%;}
+
+
+/*-------------------------------
+---------- CONCEPT --------------
+--------------------------------*/
+
+.concept {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    }
+
+.hex3 {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    top: -80px;
+    left: 0;
+    }
+.titreSection {
+    position: relative;
+    width: 90%;
+    font-family: Lato;
+    font-style: italic;
+    font-size: 40px;
+    text-align: right;
+    color: #5832A0;
+    margin-top: 100px;
+    }
+
+.concept3en1 {
+    position: relative;
+    height: auto;
+    margin-top: 20px;
+    width: 100%;
+    }
+.pictoSize {
+    width: auto;
+    height: 50%;
+    }
+
+
+/*-------------------------------
+---------- SOLUTION -------------
+--------------------------------*/
+
+.solution {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+    }
+
+.textPresentationPartie {
+    position: relative;
+    width: 50%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: #1D5C6F;
+    font-family: Lato;
+    }
+
+.hexEnLigne {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin: 1rem;
+    }
+.diamond {
+    width: 250px;
+    height: auto;
+    }
+
+
+/*-------------------------------
+------------ OFFRES -------------
+--------------------------------*/
+
+.offres {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+    }
+
+.kkk_size {
+    position: absolute;
+    width: 100%;
+    top: 250px;
+    left: 0;
+    }
+
+
+/*-------------------------------
+------------ CONTACT ------------
+--------------------------------*/
+
+.contact {
+    position: relative;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    right: 0px;
+    top: 100px;
+    margin-bottom: 1000px;
+    }
+
+.hexVert {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 0;
+    }
+
+.boxcontact{
+    position: relative;
+    width: 344px;
+    height: 512px;
+    left: 2%;
+    top: 20%;
+    border: solid;
+    }
