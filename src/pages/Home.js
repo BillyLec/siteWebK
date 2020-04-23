@@ -20,6 +20,7 @@ import hex4 from '../img/Polygon_6.png';
 import logo_insa from '../img/logo_insa.png';
 import logo_ttt from '../img/logo_ttt.png';
 import logo_laas from '../img/logo_laas.png';
+import fleche_droite from '../img/fleche_droite.png';
 
 
 class Home extends React.Component {
@@ -53,14 +54,28 @@ class Home extends React.Component {
                             <img className="img_titre" alt="Titre Kaino" src={titreblanc}/>
                             <div className="boxSousTitre">
                                 <h1>L'escape room sécurité informatique</h1>
-                                <h1>Jouez et protégez</h1>
+                                <div className="boxderoulant">
+                                    <h1>Jouez et protégez</h1>
+                                    <img className="flechederoulant" alt="fleche vers la droite" src={fleche_droite}/>
+                                </div>
                             </div>
                             
                         </div>
 
                         <div className="petitBadge1">
-                            <img className="hex hex-1" alt="Petit badge hexagone orange" src={hex1}/>
-                            <img className="hex hex-2" alt="Petit badge hexagone orange" src={hex2}/>
+                            <div className="position123">
+                                <img className="hexa123" alt="Petit badge hexagone orange" src={hex1}/>
+                                <img className="hexa456" alt="hexa456" src={fleche_droite}/>
+
+                            </div>
+                            {/* <img className="hex hex-1" alt="Petit badge hexagone orange" src={hex1}/> */}
+                            {/* <div className="fleche">
+                                <img alt="Flêche en 3D orienté vers la droite" src={fleche_droite}/>
+                            </div> */}
+                            
+                            <div >
+                                <img className="hex hex-2" alt="Petit badge hexagone orange" src={hex2}/>
+                            </div>
                         </div>
                     </div>
 
@@ -88,7 +103,7 @@ class Home extends React.Component {
                     </div>
 
                     <div className="solution">
-                        <p className="titreSection">Solution</p>
+                        <p className="titreSection">Notre solution</p>
                         <div className="textPresentationPartie">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut ante sollicitudin, pellentesque augue id, posuere odio. Nunc tristique et nibh et tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut ante sollicitudin, pellentesque augue id, posuere odio. Nunc tristique et nibh et tempor.
                         </div>
@@ -132,7 +147,7 @@ class Home extends React.Component {
                         <p className="titreSection">Ils nous font confiance</p>
                         <img className="cardlogo" alt="Logo de l'INSA" src={logo_insa}/>
                         <img className="cardlogo" alt="Logo du Laas-CNRS" src={logo_laas}/>
-                        <img className="cardlogo" alt="Logo de Toulouse Tech Transfert" src={logo_ttt}/>
+                        <img className="cardlogo ttt" alt="Logo de Toulouse Tech Transfert" src={logo_ttt}/>
                         
                     </div>
 
