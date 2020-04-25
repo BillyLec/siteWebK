@@ -11,18 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-@font-face {
-  font-family: "Macula Solid", serif;
-  src: "./assets/fonts/MaculaSolid.ttf";
-}
-
-@font-face {
-  font-family: "Macula Line", serif;
-  src: "./assets/fonts/MaculaLine.ttf";
-}
-
-@font-face {
-  font-family: "Macula Shaded", serif;
-  src: "./assets/fonts/MaculaShaded.ttf";
-}

@@ -34,9 +34,11 @@ class Home extends React.Component {
           <img className="polygone1" alt="Fond violet header" src={imgbg} />
 
           <div className="menu">
-            <a href="https://kaino.fr">
-              <img className="logo" alt="Logo Kaino" src={logoblanc} />
-            </a>
+            <div className="imageContainer">
+              <a className="homeLink" href="https://kaino.fr">
+                <img className="logo" alt="Logo Kaino" src={logoblanc} />
+              </a>
+            </div>
             <div className="navigationBar">
               <p className="navigationItem">Qui sommes-nous ?</p>
               <p className="navigationItem">Contact</p>
@@ -57,7 +59,7 @@ class Home extends React.Component {
                   alt="fleche vers la droite"
                   src={fleche_droite}
                 />
-                <div classname="levraiboxderoulant">
+                <div className="levraiboxderoulant">
                   <h1>Vos donnees</h1>
                 </div>
               </div>
@@ -163,8 +165,28 @@ class Home extends React.Component {
 
         <div className="contact">
           <p className="titreSection">Nous contacter</p>
-          <img className="hexVert" alt="Demi polygone bleu-vert" src={hex4} />
-          <div className="boxcontact"></div>
+
+          {/* Skeleton by Alexa                    */}
+          <div>
+            <img className="hexVert" alt="Demi polygone bleu-vert" src={hex4} />
+            <div className="boxcontact">
+              <div className="contactItem">
+                {/* <img className="contactItemIcon"></img> */}
+                <p className="contactItemText">contact@kaino.fr</p>
+              </div>
+
+              <div className="contactItem">
+                {/* <img className="contactItemIcon"></img> */}
+                <p className="contactItemText">+33 000 000 000 </p>
+              </div>
+
+              <div className="contactItem">
+                {/* <img className="contactItemIcon"></img> */}
+                <p className="contactItemText"></p>
+              </div>
+            </div>
+            {/* Skeleton by Alexa                    */}
+          </div>
         </div>
 
         <div className="partenaires">
