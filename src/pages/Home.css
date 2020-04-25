@@ -1,291 +1,319 @@
 :root {
-    --bgcolor: #f7f2ff;
-    }
+  --bgcolor: #f7f2ff;
+}
 
-html, body {
-    margin: 0;
-    padding: 0;
-    }
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    background-color: var(--bgcolor);
-    background-attachment: fixed; /* Le fond restera fixe */
-    font-size: 100%;
-    }
+  background-color: var(--bgcolor);
+  background-attachment: fixed; /* Le fond restera fixe */
+  font-size: 100%;
+}
 
 h1 {
-    color: white;
-    margin-top: 0;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 54px;
-    letter-spacing: 0.02em;
-    }
+  color: white;
+  margin-top: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+}
 /*------------------------------
 ---------- ENTETE --------------
 --------------------------------*/
 .entete {
-    position: relative;
-    width: 100%;
-    height: auto;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    background: #F7F2FF;
-    margin-bottom: 10%;
-    }
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  background: #f7f2ff;
+  margin-bottom: 10%;
+}
 .polygone1 {
-    width: 100%;
-    height: 100%;
-    }
+  width: 100%;
+  height: 100%;
+}
 
-.menu{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 16px;
-    }
+.menu {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 16px;
+}
 
 .navigationBar {
-    font-size: 1em;
-    position: absolute;
-    top: 19.39%;
-    bottom: 43.88%;
-    color: white;
-    }
-.navigationBarApropos {right: 20%;}
-.navigationBarContact {right: 14%;}
+  font-size: 1em;
+  position: absolute;
+  top: 0;
+  right: 2%;
+  color: white;
 
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0.5em;
+}
+
+.navigationItem {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
 .bigTitre {
-    position: absolute;
-    width:100%;
-    top: 8%;
-    }
+  position: absolute;
+  width: 35%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .img_titre {
-    width: 35%;
-    height: auto;
-    margin-top: 40pt;
-    margin-bottom: 5pt;
-    }
+  width: 100%;
+  height: auto;
+  margin-top: 40pt;
+  margin-bottom: 5pt;
+}
 .boxSousTitre {
-    width: 45%;
-    margin: auto;
-    }
-.boxderoulant{
-    position: relative;
-    display: inline-block;
-    }
-.flechederoulant{
-    position: relative;
+  width: 100%;
+  font-size: 100% !important;
+}
+
+.boxderoulant {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flechederoulant {
+  position: relative;
+  padding: 0.5em;
 }
 
 .petitBadge1 {
-    position: absolute;
-    width: 100%;
-    top: 48%;
-    height: auto;
-    }
-.hex{
-    position: absolute;
-    width: 25%;
-    height: auto;
-    }
-.hex-1{left: -30px;}
-.hex-2{left: 60%; margin-top: 8%;}
-
-.fleche{
-    position: absolute;
-    width: auto;
-    height: auto;
-    }
-
-.position123{
-    position: absolute;
-    width: 25%;
-    height: auto;
-    left: -30px;
+  position: absolute;
+  width: 100%;
+  top: 48%;
+  height: auto;
 }
-.hexa123{
-    position: relative;
-    width: 100%;
-    height: auto;
+.hex {
+  position: absolute;
+  width: 25%;
+  height: auto;
 }
-.hexa456{
-    position: absolute;
-    width: auto;
-    height: auto;
+.hex-1 {
+  left: -30px;
+}
+.hex-2 {
+  left: 60%;
+  margin-top: 8%;
 }
 
+.fleche {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
+
+.position123 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height: auto;
+  left: -30px;
+}
+
+.hexa123 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.hexa456 {
+  position: absolute;
+  width: auto;
+  height: auto;
+}
 
 /*-------------------------------
 ---------- CONCEPT --------------
 --------------------------------*/
 
 .concept {
-    position: relative;
-    width: 100%;
-    height: auto;
-    left: 0px;
-    right: 0px;
-    }
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  right: 0px;
+}
 
 .hex3 {
-    position: absolute;
-    width: 50%;
-    height: auto;
-    top: -80px;
-    left: 0;
-    }
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: -80px;
+  left: 0;
+}
+
 .titreSection {
-    position: relative;
-    width: 90%;
-    font-family: Lato;
-    font-style: italic;
-    font-size: 40px;
-    text-align: right;
-    color: #5832A0;
-    margin-top: 100px;
-    }
+  position: relative;
+  width: 90%;
+  font-family: "MaculaLine";
+  font-size: 40px;
+  text-align: right;
+  color: #5832a0;
+  margin-top: 100px;
+}
 
 .concept3en1 {
-    position: relative;
-    height: auto;
-    margin-top: 20px;
-    width: 100%;
-    }
+  position: relative;
+  height: auto;
+  margin-top: 20px;
+  width: 100%;
+}
 .pictoSize {
-    width: auto;
-    height: 50%;
-    }
-
+  width: auto;
+  height: 50%;
+}
 
 /*-------------------------------
 ---------- SOLUTION -------------
 --------------------------------*/
 
 .solution {
-    position: relative;
-    width: 100%;
-    height: auto;
-    left: 0px;
-    right: 0px;
-    top: 100px;
-    }
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  right: 0px;
+  top: 100px;
+}
 
 .textPresentationPartie {
-    position: relative;
-    width: 50%;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    color: #1D5C6F;
-    font-family: Lato;
-    }
+  position: relative;
+  width: 50%;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  color: #1d5c6f;
+  font-family: Lato;
+}
 
 .hexEnLigne {
-    position: relative;
-    display: inline-block;
-    width: auto;
-    margin: 1rem;
-    }
+  position: relative;
+  display: inline-block;
+  width: auto;
+  margin: 1rem;
+}
 .diamond {
-    width: 250px;
-    height: auto;
-    }
-
+  width: 250px;
+  height: auto;
+}
 
 /*-------------------------------
 ------------ OFFRES -------------
 --------------------------------*/
 
 .offres {
-    position: relative;
-    width: 100%;
-    height: auto;
-    left: 0px;
-    right: 0px;
-    top: 100px;
-    }
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  right: 0px;
+  top: 100px;
+}
 
 .kkk_size {
-    position: absolute;
-    width: 100%;
-    top: 250px;
-    left: 0;
-    }
-
+  position: absolute;
+  width: 100%;
+  top: 250px;
+  left: 0;
+}
 
 /*-------------------------------
 ------------ CONTACT ------------
 --------------------------------*/
 
 .contact {
-    position: relative;
-    width: 100%;
-    height: auto;
-    left: 0px;
-    right: 0px;
-    top: 100px;
-    }
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  right: 0px;
+  top: 100px;
+}
 
 .hexVert {
-    position: absolute;
-    width: 50%;
-    height: auto;
-    left: 0;
-    }
+  position: absolute;
+  width: 50%;
+  height: auto;
+  left: 0;
+}
 
-.boxcontact{
-    position: relative;
-    width: 344px;
-    height: 512px;
-    left: 2%;
-    top: 20%;
-    border: solid;
-    }
-
+.boxcontact {
+  position: relative;
+  width: 344px;
+  height: 512px;
+  left: 2%;
+  top: 20%;
+  border: solid;
+}
 
 /*-------------------------------
 ---------- PARTENAIRES ----------
 --------------------------------*/
 
 .partenaires {
-    position: relative;
-    width: 100%;
-    height: auto;
-    left: 0px;
-    right: 0px;
-    top: 100px;
-    }
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  right: 0px;
+  top: 100px;
+}
 
 .cardlogo {
-    position: relative;
-    display: inline-block;
-    margin: 1rem;
-    width: 300px;
-    height: auto;
-    }
-.ttt {width: 200px;}
+  position: relative;
+  display: inline-block;
+  margin: 1rem;
+  width: 300px;
+  height: auto;
+}
+.ttt {
+  width: 200px;
+}
 
 /*-------------------------------
 ---------- PARTENAIRES ----------
 --------------------------------*/
 
 .footer {
-    position: relative;
-    width: 100%;
-    height: 150px;
-    bottom: 0px;
-    background-color: #B2D8F6;
-    margin-top: 200px;
-    }
+  position: relative;
+  width: 100%;
+  height: 150px;
+  bottom: 0px;
+  background-color: #b2d8f6;
+  margin-top: 200px;
+}
 
 .txtcopyright {
-    position: relative;
-    width: 100%;
-    color: white;
-    vertical-align: bottom;
-    }
+  position: relative;
+  width: 100%;
+  color: white;
+  vertical-align: bottom;
+}
