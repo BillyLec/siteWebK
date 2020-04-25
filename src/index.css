@@ -1,13 +1,28 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@font-face {
+  font-family: "Macula Solid", serif;
+  src: "./assets/fonts/MaculaSolid.ttf";
+}
+
+@font-face {
+  font-family: "Macula Line", serif;
+  src: "./assets/fonts/MaculaLine.ttf";
+}
+
+@font-face {
+  font-family: "Macula Shaded", serif;
+  src: "./assets/fonts/MaculaShaded.ttf";
 }
