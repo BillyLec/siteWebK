@@ -1,4 +1,3 @@
-
 // Import organisms
 @import "./organisms/_concept.scss";
 @import "./organisms/_contact.scss";
@@ -12,6 +11,9 @@
 // Import utilities
 @import "./utilities/_colors.scss";
 @import "./utilities/_structure.scss";
+@import "./utilities/_breakpoints.scss";
+@import "./utilities/_mixins.scss";
+@import "./utilities/_fonts.scss";
 
 //index.css
 body {
