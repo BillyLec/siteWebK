@@ -266,12 +266,38 @@ h1 {
 }
 
 .boxcontact {
-  position: relative;
   width: 344px;
   height: 512px;
   left: 2%;
   top: 20%;
   border: solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactItem {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border: solid;
+  background-color: green;
+
+}
+
+.contactItemIcon {
+  width: 15%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /*-------------------------------
