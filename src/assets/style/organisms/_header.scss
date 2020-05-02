@@ -1,18 +1,35 @@
-.entete {
-  position: relative;
-  width: 100%;
-  height: auto;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  background: #f7f2ff;
-  margin-bottom: 10%;
-}
+/*------------------------------
+---------- ENTETE --------------
+--------------------------------*/
 .polygone1 {
   width: 100%;
   height: 100%;
 }
 
+.menu {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 16px;
+}
+
+.navigationBar {
+  font-size: 1em;
+  position: absolute;
+  top: 0;
+  right: 2%;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0.5em;
+}
+
+.navigationItem {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
 .bigTitre {
   position: absolute;
   width: 35%;

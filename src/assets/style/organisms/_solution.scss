@@ -1,14 +1,8 @@
-.solution {
-  position: relative;
-  width: 100%;
-  height: auto;
-  left: 0px;
-  right: 0px;
-  top: 100px;
-}
+/*-------------------------------
+---------- SOLUTION -------------
+--------------------------------*/
 
 .textPresentationPartie {
-  position: relative;
   width: 50%;
   align-content: center;
   margin-left: auto;
@@ -18,9 +12,9 @@
   font-family: Lato;
 }
 
-.hexEnLigne {
+.hexSolution {
   position: relative;
-  display: inline-block;
+  display: flex;
   width: auto;
   margin: 1rem;
 }
