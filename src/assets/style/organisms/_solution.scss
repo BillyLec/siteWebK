@@ -1,0 +1,30 @@
+.solution {
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0px;
+  right: 0px;
+  top: 100px;
+}
+
+.textPresentationPartie {
+  position: relative;
+  width: 50%;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  color: #1d5c6f;
+  font-family: Lato;
+}
+
+.hexEnLigne {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  margin: 1rem;
+}
+.diamond {
+  width: 250px;
+  height: auto;
+}
