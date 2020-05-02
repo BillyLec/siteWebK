@@ -1,17 +1,40 @@
-@font-face {
-  font-family: "MaculaSolid", Lato;
-  src: url("../assets/fonts/MaculaSolid.ttf") format("truetype");
+// Import components
+@import "./components/_header.scss";
+@import "./components/_home.scss";
+
+// Import organisms
+@import "./organisms/_concept.scss";
+@import "./organisms/_contact.scss";
+@import "./organisms/_footer.scss";
+@import "./organisms/_header.scss";
+@import "./organisms/_offers.scss";
+@import "./organisms/_partners.scss";
+@import "./organisms/_solution.scss";
+@import "./organisms/_menu.scss";
+
+// Import utilities
+@import "./utilities/_colors.sass";
+
+//index.css
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@font-face {
-  font-family: "MaculaLine", Lato;
-  src: url("../assets/fonts/MaculaLine.ttf") format("truetype");
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-@font-face {
-  font-family: "MaculaShaded", Lato;
-  src: url("../assets/fonts/MaculaShaded.ttf") format("truetype");
+.App {
+  text-align: center;
 }
+
+//style.css
 
 .max-width {
   width: 100%;
