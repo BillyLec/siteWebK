@@ -21,12 +21,6 @@ import logo_insa from "../img/logo_insa.png";
 import logo_ttt from "../img/logo_ttt.png";
 import logo_laas from "../img/logo_laas.png";
 import fleche_droite from "../img/fleche_droite.png";
-import logo_mail from "../img/mail.png";
-import logo_linkedin from "../img/linkedin.png";
-import logo_phone from "../img/phone.png";
-import logo_instagram from "../img/instagram.png";
-import logo_twitter from "../img/twitter.png";
-import logo_facebook from "../img/facebook.png";
 
 class Home extends React.Component {
   componentDidMount() {
@@ -159,7 +153,11 @@ class Home extends React.Component {
 
         <div className="offres">
           <p className="titreSection">Nos offres</p>
-          <img className="kkk_size" alt="Lettres K violettes sur fond bleu ciel" src={kkk}/>
+          <img
+            className="kkk_size"
+            alt="Lettres K violettes sur fond bleu ciel"
+            src={kkk}
+          />
           <div className="card smallCard"></div>
           <div className="card largeCard"></div>
           <div className="card mediumCard"></div>
@@ -167,40 +165,27 @@ class Home extends React.Component {
 
         <div className="contact">
           <p className="titreSection">Nous contacter</p>
+
+          {/* Skeleton by Alexa                    */}
           <div>
-            {/* <img className="hexVert" alt="Demi polygone bleu-vert" src={hex4}/> */}
+            <img className="hexVert" alt="Demi polygone bleu-vert" src={hex4} />
             <div className="boxcontact">
               <div className="contactItem">
-                <img className="contactItemIcon" alt="logo enveloppe" src={logo_mail}/>
+                {/* <img className="contactItemIcon"></img> */}
                 <p className="contactItemText">contact@kaino.fr</p>
               </div>
 
               <div className="contactItem">
-                <img className="contactItemIcon" alt="logo telephone" src={logo_phone}/>
+                {/* <img className="contactItemIcon"></img> */}
                 <p className="contactItemText">+33 000 000 000 </p>
               </div>
 
               <div className="contactItem">
-                <img className="contactItemIcon" alt="logo LinkedIn" src={logo_linkedin}/>
-                <p className="contactItemText">url linkedin</p>
+                {/* <img className="contactItemIcon"></img> */}
+                <p className="contactItemText"></p>
               </div>
-
-              <div className="contactItem">
-                <img className="contactItemIcon" alt="logo Facebook" src={logo_facebook}/>
-                <p className="contactItemText">url facebook</p>
-              </div>
-
-              <div className="contactItem">
-                <img className="contactItemIcon" alt="logo Instagram" src={logo_instagram}/>
-                <p className="contactItemText">url instagram</p>
-              </div>
-
-              <div className="contactItem">
-                <img className="contactItemIcon" alt="logo twitter" src={logo_twitter}/>
-                <p className="contactItemText">url twitter</p>
-              </div>
-
             </div>
+            {/* Skeleton by Alexa                    */}
           </div>
         </div>
 
