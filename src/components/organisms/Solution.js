@@ -9,40 +9,43 @@ class Solution extends React.Component {
   render() {
     return (
       <div className="grandePartie">
-          <div className="boxTitrePartie">
-              <p className="titrePartie">Notre solution</p>
-          </div>
+        <div className="boxTitrePartie">
+          <p className="section-title">Notre solution</p>
+        </div>
 
-          <div className="contenuVertical">
-            <p className="textPresentationPartie">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque ut ante sollicitudin, pellentesque augue id, posuere
-              odio. Nunc tristique et nibh et tempor. Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit. Pellentesque ut ante sollicitudin,
-              pellentesque augue id, posuere odio. Nunc tristique et nibh et
-              tempor.
-            </p>
+        <div className="contenuVertical">
+          <p className="textPresentationPartie">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque ut ante sollicitudin, pellentesque augue id, posuere
+            odio. Nunc tristique et nibh et tempor. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Pellentesque ut ante sollicitudin,
+            pellentesque augue id, posuere odio. Nunc tristique et nibh et
+            tempor.
+          </p>
 
-            <div className="contenuHorizontal">
-              <div className="hexSolution">
-                <img className="diamond" alt="Hexagone violet" src={diamond1} />
-              </div>
+          <div className="contenuHorizontal">
+            <div className="hexSolution">
+              <img className="diamond" alt="Hexagone violet" src={diamond1} />
+            </div>
 
-              <div className="hexSolution">
-                <img className="diamond" alt="Hexagone orange" src={diamond2} />
-              </div>
+            <div className="hexSolution">
+              <img className="diamond" alt="Hexagone orange" src={diamond2} />
+            </div>
 
-              <div className="hexSolution">
-                <img className="diamond" alt="Hexagone bleu-vert" src={diamond3} />
-              </div>
+            <div className="hexSolution">
+              <img
+                className="diamond"
+                alt="Hexagone bleu-vert"
+                src={diamond3}
+              />
+            </div>
 
-              <div className="hexSolution">
-                <img className="diamond" alt="Hexagone jaune" src={diamond4} />
-              </div>
-
+            <div className="hexSolution">
+              <img className="diamond" alt="Hexagone jaune" src={diamond4} />
             </div>
           </div>
         </div>
+      </div>
     );
   }
 }

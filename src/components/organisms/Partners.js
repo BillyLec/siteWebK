@@ -9,13 +9,17 @@ class Partners extends React.Component {
     return (
       <div className="grandePartie">
         <div className="boxTitrePartie">
-            <p className="titrePartie">Ils nous font confiance</p>
+          <p className="section-title">Ils nous font confiance</p>
         </div>
 
         <div className="contenuHorizontal">
           <img className="cardlogo" alt="Logo de l'INSA" src={logo_insa} />
           <img className="cardlogo" alt="Logo du Laas-CNRS" src={logo_laas} />
-          <img className="cardlogo ttt" alt="Logo de Toulouse Tech Transfert" src={logo_ttt}/>
+          <img
+            className="cardlogo ttt"
+            alt="Logo de Toulouse Tech Transfert"
+            src={logo_ttt}
+          />
         </div>
       </div>
     );

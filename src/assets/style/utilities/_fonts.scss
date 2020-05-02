@@ -1,11 +1,94 @@
-@font-face
-    font-family: "MaculaSolid", Lato
-    src: url("../../fonts/MaculaSolid.ttf") format("truetype")
+@font-face {
+  font-family: "MaculaSolid";
+  src: url("../../fonts/MaculaSolid.ttf") format("truetype");
+}
 
-    &
-        font-family: "MaculaLine", Lato
-        src: url("../../fonts/MaculaLine.ttf") format("truetype")
+@font-face {
+  font-family: "MaculaLine";
+  src: url("../../fonts/MaculaLine.ttf") format("truetype");
+}
 
-    &
-        font-family: "MaculaShaded", Lato
-        src: url("../../fonts/MaculaShaded.ttf") format("truetype")
+@font-face {
+  font-family: "MaculaShaded";
+  src: url("../../fonts/MaculaShaded.ttf") format("truetype");
+}
+
+//For guidelines on font-sizes, look here  https://www.pinterest.fr/pin/363313894939778344/?nic_v1=1aAr8ClYL7IL%2Fm7OG62Q98ExgJQZTqlwxcROSL%2BNesnmYc%2BlwiNjtYBTug%2FW8arUEz
+
+$body-font-sizes: (
+  null: 16px,
+);
+
+$h1-font-sizes: (
+  null: 32px,
+  $breakpoint-phone: 32px,
+  $breakpoint-tablet: 40px,
+  $breakpoint-desktop: 48px,
+  $breakpoint-lg-desktop: 48px,
+);
+
+$h2-font-sizes: (
+  null: 26px,
+  $breakpoint-phone: 26px,
+  $breakpoint-tablet: 32px,
+  $breakpoint-desktop: 36px,
+  $breakpoint-lg-desktop: 36px,
+);
+
+$h3-font-sizes: (
+  null: 22px,
+  $breakpoint-phone: 22px,
+  $breakpoint-tablet: 24px,
+  $breakpoint-desktop: 28px,
+  $breakpoint-lg-desktop: 28px,
+);
+
+$h4-font-sizes: (
+  null: 18px,
+);
+
+$section-title-font-sizes: (
+  null: 54px,
+  $breakpoint-phone: 54px,
+  $breakpoint-tablet: 54px,
+  $breakpoint-desktop: 64px,
+  $breakpoint-lg-desktop: 72px,
+);
+
+$page-title-font-sizes: (
+  null: 32px,
+  $breakpoint-phone: 32px,
+  $breakpoint-tablet: 40px,
+  $breakpoint-desktop: 48px,
+  $breakpoint-lg-desktop: 48px,
+);
+
+a,
+p,
+body {
+  @include font-size($body-font-sizes);
+}
+
+h1 {
+  @include font-size($h1-font-sizes);
+}
+h2 {
+  @include font-size($h2-font-sizes);
+}
+h3 {
+  @include font-size($h3-font-sizes);
+}
+h4 {
+  @include font-size($h4-font-sizes);
+}
+.section-title {
+  @include font-size($section-title-font-sizes);
+  font-family: "MaculaLine";
+  color: $primary;
+  font-weight: 300;
+}
+
+.page-title {
+  @include font-size($page-title-font-sizes);
+  color: $neutral;
+}
