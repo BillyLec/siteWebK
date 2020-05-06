@@ -1,0 +1,62 @@
+/* Slider */
+
+$scroller-height: 64px;
+$scroller-size: 32px;
+
+.textSlider div {
+  color: $neutral;
+  text-transform: uppercase;
+}
+
+.slideCol {
+  text-align: left;
+  overflow: hidden;
+  display: block;
+  white-space: nowrap;
+}
+.slideCol p {
+  margin: 0px !important;
+}
+
+.scroller {
+  height: $scroller-height;
+  line-height: $scroller-size;
+  overflow: hidden;
+  margin: 2em;
+}
+.scroller .inner {
+  animation: 3s alternate infinite running scroll;
+  p {
+    @include font-size($h2-font-sizes);
+    text-align: left;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    margin-top: 0px;
+    color: $contrast-1;
+  }
+  20% {
+    margin-top: 0px;
+    color: $contrast-1;
+  }
+
+  40% {
+    margin-top: -$scroller-height;
+    color: $contrast-2;
+  }
+  60% {
+    margin-top: -$scroller-height;
+    color: $contrast-2;
+  }
+
+  80% {
+    margin-top: -(2 * $scroller-height);
+    color: $contrast-3;
+  }
+  100% {
+    margin-top: -(2 * $scroller-height);
+    color: $contrast-3;
+  }
+}

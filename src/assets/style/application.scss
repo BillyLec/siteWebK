@@ -1,3 +1,10 @@
+// Import utilities
+@import "./utilities/_colors.scss";
+@import "./utilities/_structure.scss";
+@import "./utilities/_breakpoints.scss";
+@import "./utilities/_mixins.scss";
+@import "./utilities/_fonts.scss";
+
 // Import organisms
 @import "./organisms/_concept.scss";
 @import "./organisms/_contact.scss";
@@ -6,14 +13,10 @@
 @import "./organisms/_offers.scss";
 @import "./organisms/_partners.scss";
 @import "./organisms/_solution.scss";
-@import "./organisms/_menu.scss";
 
-// Import utilities
-@import "./utilities/_colors.scss";
-@import "./utilities/_structure.scss";
-@import "./utilities/_breakpoints.scss";
-@import "./utilities/_mixins.scss";
-@import "./utilities/_fonts.scss";
+// Import molecules
+@import "./molecules/_menu.scss";
+@import "./molecules/_text-scroller.scss";
 
 //index.css
 body {
@@ -46,19 +49,6 @@ code {
 .logo {
   width: 100%;
   height: auto;
-}
-
-.homeLink {
-  width: 100%;
-  height: 100%;
-}
-.imageContainer {
-  top: 10px;
-  left: 10px;
-  width: 8%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .card {

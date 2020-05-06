@@ -17,6 +17,10 @@
 
 $body-font-sizes: (
   null: 16px,
+  $breakpoint-phone: 16px,
+  $breakpoint-tablet: 16px,
+  $breakpoint-desktop: 16px,
+  $breakpoint-lg-desktop: 16px,
 );
 
 $h1-font-sizes: (
@@ -63,12 +67,6 @@ $page-title-font-sizes: (
   $breakpoint-lg-desktop: 48px,
 );
 
-a,
-p,
-body {
-  @include font-size($body-font-sizes);
-}
-
 h1 {
   @include font-size($h1-font-sizes);
 }
@@ -91,4 +89,10 @@ h4 {
 .page-title {
   @include font-size($page-title-font-sizes);
   color: $neutral;
+}
+
+a,
+p,
+body {
+  @include font-size($body-font-sizes);
 }
